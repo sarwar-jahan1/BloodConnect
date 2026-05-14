@@ -1,21 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BloodConnect</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <Header>
+    <nav class="navbar">
 
-    </Header>
+        <!-- Logo -->
+        <div class="logo">
+            <i class="fa-solid fa-droplet"></i>
 
-    <main>
+            <div class="logo-text">
+                <h2>BloodConnect</h2>
+                <p>Save Life, Be a Hero</p>
+            </div>
+        </div>
 
-    </main>
+        <!-- Menu -->
+        <ul class="nav-links">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Donors</a></li>
+            <li><a href="#">Request Blood</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
 
-    <footer>
-        
-    </footer>
+        <!-- Emergency Button -->
+        <button class="emergency-btn">
+            <i class="fa-solid fa-bell"></i>
+            Emergency Request
+        </button>
+
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <!-- Left Side -->
+        <div class="hero-left">
+
+            <h1>
+                Donate Blood,<br>
+                <span>Save Lives</span>
+            </h1>
+
+            <p>
+                Find blood donors near you and help save lives.
+                Every drop counts!
+            </p>
+
+            <div class="hero-buttons">
+                <button class="primary-btn">Request Blood</button>
+                <button class="secondary-btn">View Donors</button>
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+        <div class="hero-right">
+
+            <img src="./images/bloood.png">
+            
+
+        </div>
+
+    </section>
 </body>
+
 </html>
