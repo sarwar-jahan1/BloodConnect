@@ -1,17 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
   background: #f5f5f5;
 }
 
 /* ================= NAVBAR ================= */
 
-.navbar{
+.navbar {
   width: 100%;
   background: #fff;
 
@@ -26,25 +26,25 @@ body{
 
 /* Logo */
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.logo i{
+.logo i {
   font-size: 26px;
   color: #ef1111;
 }
 
-.logo-text h2{
+.logo-text h2 {
   color: #ef1111;
   font-size: 24px;
   font-weight: 700;
   line-height: 1;
 }
 
-.logo-text p{
+.logo-text p {
   color: #666;
   font-size: 11px;
   margin-top: 3px;
@@ -52,7 +52,7 @@ body{
 
 /* Nav Links */
 
-.nav-links{
+.nav-links {
   display: flex;
   align-items: center;
   gap: 35px;
@@ -60,7 +60,7 @@ body{
   list-style: none;
 }
 
-.nav-links a{
+.nav-links a {
   text-decoration: none;
   color: #222;
 
@@ -71,16 +71,16 @@ body{
   transition: 0.3s;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
   color: #ef1111;
 }
 
-.nav-links .active{
+.nav-links .active {
   color: #ef1111;
 }
 
-.nav-links .active::after{
-  content: '';
+.nav-links .active::after {
+  content: "";
 
   position: absolute;
   left: 0;
@@ -95,7 +95,7 @@ body{
 
 /* Emergency Button */
 
-.emergency-btn{
+.emergency-btn {
   background: #ef1111;
   color: white;
 
@@ -113,18 +113,17 @@ body{
   transition: 0.3s;
 }
 
-.emergency-btn i{
+.emergency-btn i {
   margin-right: 7px;
 }
 
-.emergency-btn:hover{
+.emergency-btn:hover {
   background: #d80d0d;
 }
 
 /* ================= HERO SECTION ================= */
 
-.hero{
-
+.hero {
   background: #fff5f5;
 
   border-radius: 16px;
@@ -132,7 +131,7 @@ body{
   padding: 55px 70px;
 }
 
-.main-hero{
+.main-hero {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
@@ -142,21 +141,21 @@ body{
 
 /* Left Side */
 
-.hero-left{
+.hero-left {
   width: 48%;
 }
 
-.hero-left h1{
+.hero-left h1 {
   font-size: 50px;
   line-height: 1.2;
   color: #111827;
 }
 
-.hero-left h1 span{
+.hero-left h1 span {
   color: #ef1111;
 }
 
-.hero-left p{
+.hero-left p {
   font-size: 15px;
   color: #555;
 
@@ -166,14 +165,14 @@ body{
 
 /* Buttons */
 
-.hero-buttons{
+.hero-buttons {
   display: flex;
   gap: 18px;
 
   margin-top: 30px;
 }
 
-.primary-btn{
+.primary-btn {
   background: #ef1111;
   color: white;
 
@@ -190,11 +189,11 @@ body{
   transition: 0.3s;
 }
 
-.primary-btn:hover{
+.primary-btn:hover {
   background: #d80d0d;
 }
 
-.secondary-btn{
+.secondary-btn {
   background: transparent;
   color: #ef1111;
 
@@ -211,19 +210,19 @@ body{
   transition: 0.3s;
 }
 
-.secondary-btn:hover{
+.secondary-btn:hover {
   background: #ef1111;
   color: white;
 }
 
 /* Right Side */
 
-.hero-right{
+.hero-right {
   width: 42%;
   text-align: center;
 }
 
-.hero-right img{
+.hero-right img {
   width: 100%;
   max-width: 500px;
   border-radius: 10px;
@@ -231,26 +230,26 @@ body{
 
 /* ================= DONOR SECTION ================= */
 
-.donor-section{
+.donor-section {
   max-width: 1000px;
   margin: 0 auto;
 }
 
 /* ================= FILTER ================= */
 
-.blood-filter h2{
+.blood-filter h2 {
   font-size: 24px;
   margin-bottom: 20px;
   color: #111827;
 }
 
-.filter-buttons{
+.filter-buttons {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-.filter-buttons button{
+.filter-buttons button {
   padding: 13px 38px;
 
   border: 1px solid #ddd;
@@ -265,12 +264,12 @@ body{
   transition: 0.3s;
 }
 
-.filter-buttons button:hover{
+.filter-buttons button:hover {
   border-color: #ef1111;
   color: #ef1111;
 }
 
-.filter-buttons .active{
+.filter-buttons .active {
   background: #ef1111;
   color: white;
   border-color: #ef1111;
@@ -278,7 +277,7 @@ body{
 
 /* ================= WRAPPER ================= */
 
-.donor-wrapper{
+.donor-wrapper {
   display: flex;
   justify-content: space-between;
 
@@ -289,7 +288,7 @@ body{
 
 /* ================= LEFT ================= */
 
-.donor-list{
+.donor-list {
   width: 58%;
 
   background: white;
@@ -302,7 +301,7 @@ body{
 
 /* ================= TITLE ================= */
 
-.section-title{
+.section-title {
   display: flex;
   align-items: center;
 
@@ -311,19 +310,19 @@ body{
   margin-bottom: 20px;
 }
 
-.section-title i{
+.section-title i {
   color: #ef1111;
   font-size: 18px;
 }
 
-.section-title h3{
+.section-title h3 {
   font-size: 24px;
   color: #111827;
 }
 
 /* ================= CARD ================= */
 
-.donor-card{
+.donor-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -333,38 +332,38 @@ body{
   border-top: 1px solid #eee;
 }
 
-.donor-info{
+.donor-info {
   display: flex;
   align-items: center;
   gap: 18px;
 }
 
-.donor-info img{
+.donor-info img {
   width: 60px;
   height: 60px;
 }
 
-.details h4{
+.details h4 {
   font-size: 20px;
   margin-bottom: 8px;
   color: #111827;
 }
 
-.details p{
+.details p {
   font-size: 15px;
   color: #555;
 
   margin-bottom: 5px;
 }
 
-.details i{
+.details i {
   color: #ef1111;
   margin-right: 6px;
 }
 
 /* ================= CONTACT BUTTON ================= */
 
-.contact-btn{
+.contact-btn {
   background: white;
   color: #ef1111;
 
@@ -381,14 +380,14 @@ body{
   transition: 0.3s;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
   background: #ef1111;
   color: white;
 }
 
 /* ================= VIEW DONOR ================= */
 
-.view-donor{
+.view-donor {
   display: block;
   text-align: center;
 
@@ -402,7 +401,7 @@ body{
 
 /* ================= RIGHT SIDE ================= */
 
-.request-box{
+.request-box {
   width: 40%;
 
   background: white;
@@ -415,7 +414,7 @@ body{
 
 /* ================= FORM ================= */
 
-form{
+form {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -423,7 +422,7 @@ form{
 
 form input,
 form select,
-form textarea{
+form textarea {
   width: 100%;
 
   padding: 14px;
@@ -436,12 +435,12 @@ form textarea{
   outline: none;
 }
 
-form textarea{
+form textarea {
   height: 90px;
   resize: none;
 }
 
-.send-btn{
+.send-btn {
   background: #ef1111;
   color: white;
 
@@ -458,13 +457,13 @@ form textarea{
   transition: 0.3s;
 }
 
-.send-btn:hover{
+.send-btn:hover {
   background: #d90d0d;
 }
 
 /* ================= FOOTER ================= */
 
-.footer{
+.footer {
   background: #fff;
 
   border-top: 1px solid #eee;
@@ -474,7 +473,7 @@ form textarea{
   padding: 30px 0;
 }
 
-.footer-container{
+.footer-container {
   max-width: 1000px;
   margin: 0 auto;
 
@@ -487,14 +486,14 @@ form textarea{
 
 /* ================= CONTACT ================= */
 
-.footer-contact{
+.footer-contact {
   display: flex;
   align-items: flex-start;
 
   gap: 15px;
 }
 
-.phone-icon{
+.phone-icon {
   width: 48px;
   height: 48px;
 
@@ -507,53 +506,53 @@ form textarea{
   align-items: center;
 }
 
-.phone-icon i{
+.phone-icon i {
   color: #ef1111;
   font-size: 18px;
 }
 
-.contact-text h3{
+.contact-text h3 {
   font-size: 16px;
   color: #111827;
 
   margin-bottom: 5px;
 }
 
-.contact-text p{
+.contact-text p {
   font-size: 14px;
   color: #666;
 
   margin-bottom: 8px;
 }
 
-.contact-text h2{
+.contact-text h2 {
   font-size: 18px;
   color: #ef1111;
 }
 
 /* ================= LINKS ================= */
 
-.footer-links h3{
+.footer-links h3 {
   font-size: 16px;
   color: #111827;
 
   margin-bottom: 12px;
 }
 
-.links-wrapper{
+.links-wrapper {
   display: flex;
   gap: 50px;
 }
 
-.links-wrapper ul{
+.links-wrapper ul {
   list-style: none;
 }
 
-.links-wrapper ul li{
+.links-wrapper ul li {
   margin-bottom: 10px;
 }
 
-.links-wrapper ul li a{
+.links-wrapper ul li a {
   text-decoration: none;
 
   color: #555;
@@ -562,25 +561,25 @@ form textarea{
   transition: 0.3s;
 }
 
-.links-wrapper ul li a:hover{
+.links-wrapper ul li a:hover {
   color: #ef1111;
 }
 
 /* ================= SOCIAL ================= */
 
-.footer-social h3{
+.footer-social h3 {
   font-size: 16px;
   color: #111827;
 
   margin-bottom: 14px;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   gap: 10px;
 }
 
-.social-icons a{
+.social-icons a {
   width: 36px;
   height: 36px;
 
@@ -596,56 +595,56 @@ form textarea{
   font-size: 14px;
 }
 
-.social-icons a:nth-child(1){
+.social-icons a:nth-child(1) {
   background: #1877f2;
 }
 
-.social-icons a:nth-child(2){
+.social-icons a:nth-child(2) {
   background: #1da1f2;
 }
 
-.social-icons a:nth-child(3){
+.social-icons a:nth-child(3) {
   background: #e1306c;
 }
 
 /* ================= LOGO ================= */
 
-.footer-logo{
+.footer-logo {
   display: flex;
   flex-direction: column;
 
   gap: 18px;
 }
 
-.logo-box{
+.logo-box {
   display: flex;
   align-items: flex-start;
 
   gap: 10px;
 }
 
-.logo-box i{
+.logo-box i {
   color: #ef1111;
   font-size: 24px;
 
   margin-top: 2px;
 }
 
-.logo-box h2{
+.logo-box h2 {
   font-size: 24px;
   color: #111827;
 
   line-height: 1;
 }
 
-.logo-box p{
+.logo-box p {
   font-size: 14px;
   color: #666;
 
   margin-top: 5px;
 }
 
-.footer-logo span{
+.footer-logo span {
   font-size: 13px;
   color: #777;
 }
@@ -656,273 +655,355 @@ form textarea{
 TABLET RESPONSIVE
 ========================= */
 
-@media (max-width: 992px){
-
-  .navbar{
+@media (max-width: 992px) {
+  .navbar {
     padding: 15px 25px;
     flex-wrap: wrap;
     gap: 18px;
   }
 
-  .nav-links{
+  .nav-links {
     gap: 22px;
   }
 
-  .hero{
+  .hero {
     padding: 40px 30px;
   }
 
-  .main-hero{
+  .main-hero {
     flex-direction: column;
     text-align: center;
     gap: 35px;
   }
 
   .hero-left,
-  .hero-right{
+  .hero-right {
     width: 100%;
   }
 
-  .hero-buttons{
+  .hero-buttons {
     justify-content: center;
   }
 
-  .hero-right img{
+  .hero-right img {
     max-width: 420px;
   }
 
-  .donor-wrapper{
+  .donor-wrapper {
     flex-direction: column;
   }
 
   .donor-list,
-  .request-box{
+  .request-box {
     width: 100%;
   }
 
-  .footer-container{
+  .footer-container {
     flex-wrap: wrap;
     gap: 35px;
     padding: 0 20px;
   }
-
 }
 
 /* =========================
 MOBILE RESPONSIVE
 ========================= */
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
+  /* ================= NAVBAR ================= */
 
-  /* NAVBAR */
-
-  .navbar{
-    padding: 14px 16px;
-
-    display: flex;
-    flex-direction: column;
-
-    gap: 14px;
-  }
-
-  .logo{
-    width: 100%;
-    justify-content: center;
-  }
-
-  .logo-text h2{
-    font-size: 22px;
-  }
-
-  .nav-links{
-    width: 100%;
+  .navbar {
+    padding: 16px 18px;
 
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
-    gap: 16px;
+    flex-direction: row;
+    position: relative;
   }
 
-  .nav-links a{
-    font-size: 14px;
+  .logo {
+    width: auto;
   }
 
-  .emergency-btn{
-    padding: 10px 16px;
+  .logo i {
+    font-size: 28px;
+  }
+
+  .logo-text h2 {
+    font-size: 28px;
+  }
+
+  .logo-text p {
     font-size: 13px;
   }
 
-  /* HERO */
+  /* HIDE NAV LINKS */
 
-  .hero{
-    padding: 35px 20px;
-    border-radius: 12px;
+  .nav-links {
+    display: none;
   }
 
-  .main-hero{
-    gap: 25px;
+  /* HIDE BUTTON */
+
+  .emergency-btn {
+    display: none;
   }
 
-  .hero-left h1{
-    font-size: 42px;
+  /* HAMBURGER ICON */
+
+  .menu-icon {
+    display: block;
+
+    font-size: 30px;
+    color: #111827;
+
+    cursor: pointer;
+  }
+
+  /* ================= HERO ================= */
+
+  .hero {
+    padding: 45px 22px;
+    border-radius: 14px;
+  }
+
+  .main-hero {
+    flex-direction: column;
+    text-align: center;
+
+    gap: 35px;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero-left h1 {
+    font-size: 56px;
     line-height: 1.2;
   }
 
-  .hero-left p{
-    font-size: 14px;
-    margin-top: 12px;
+  .hero-left p {
+    font-size: 19px;
+    line-height: 1.8;
+
+    margin-top: 16px;
   }
 
-  .hero-buttons{
-    margin-top: 22px;
+  .hero-buttons {
     justify-content: center;
+    gap: 16px;
+
+    margin-top: 28px;
   }
 
   .primary-btn,
-  .secondary-btn{
-    padding: 11px 22px;
-    font-size: 14px;
+  .secondary-btn {
+    padding: 16px 28px;
+
+    font-size: 18px;
+
+    border-radius: 10px;
   }
 
-  .hero-right img{
+  .hero-right img {
     width: 100%;
-    max-width: 300px;
+    max-width: 380px;
   }
 
-  /* FILTER */
+  /* ================= DONOR SECTION ================= */
 
-  .blood-filter h2{
-    font-size: 22px;
-    margin-bottom: 16px;
+  .donor-section {
+    padding: 0 18px;
   }
 
-  .filter-buttons{
-    gap: 10px;
+  .blood-filter h2 {
+    font-size: 34px;
+    margin-bottom: 22px;
   }
 
-  .filter-buttons button{
-    padding: 10px 16px;
-    font-size: 13px;
+  .filter-buttons {
+    gap: 12px;
   }
 
-  /* DONOR SECTION */
+  .filter-buttons button {
+    padding: 14px 20px;
 
-  .donor-section{
-    padding: 0 15px;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  /* ================= CARDS ================= */
+
+  .donor-wrapper {
+    flex-direction: column;
+    gap: 25px;
   }
 
   .donor-list,
-  .request-box{
-    padding: 18px;
+  .request-box {
+    width: 100%;
+
+    padding: 24px;
+    border-radius: 14px;
   }
 
-  .section-title h3{
-    font-size: 20px;
+  .section-title h3 {
+    font-size: 30px;
   }
 
-  .donor-card{
-    flex-direction: row;
+  .section-title i {
+    font-size: 24px;
+  }
+
+  .donor-card {
+    padding: 18px 0;
+
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 10px;
+
+    gap: 15px;
   }
 
-  .donor-info{
-    gap: 12px;
+  .donor-info {
+    gap: 16px;
   }
 
-  .donor-info img{
-    width: 50px;
-    height: 50px;
+  .donor-info img {
+    width: 70px;
+    height: 70px;
   }
 
-  .details h4{
-    font-size: 16px;
+  .details h4 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .details p {
+    font-size: 17px;
     margin-bottom: 5px;
   }
 
-  .details p{
-    font-size: 13px;
-    margin-bottom: 3px;
+  .contact-btn {
+    padding: 12px 18px;
+
+    font-size: 15px;
+    border-radius: 8px;
   }
 
-  .contact-btn{
-    padding: 9px 14px;
-    font-size: 12px;
+  .view-donor {
+    font-size: 18px;
+    margin-top: 20px;
   }
 
-  /* FORM */
+  /* ================= FORM ================= */
 
-  form{
-    gap: 12px;
+  form {
+    gap: 16px;
   }
 
   form input,
   form select,
-  form textarea{
-    padding: 12px;
-    font-size: 13px;
+  form textarea {
+    padding: 16px;
+
+    font-size: 16px;
+
+    border-radius: 8px;
   }
 
-  .send-btn{
-    padding: 12px;
-    font-size: 14px;
+  form textarea {
+    height: 130px;
   }
 
-  /* FOOTER */
+  .send-btn {
+    padding: 16px;
 
-  .footer{
-    padding: 25px 15px;
+    font-size: 18px;
+    border-radius: 8px;
   }
 
-  .footer-container{
+  /* ================= FOOTER ================= */
+
+  .footer {
+    padding: 35px 20px;
+  }
+
+  .footer-container {
     flex-direction: column;
-    gap: 28px;
+    gap: 35px;
   }
 
-  .links-wrapper{
-    gap: 30px;
+  .contact-text h3,
+  .footer-links h3,
+  .footer-social h3 {
+    font-size: 24px;
   }
 
+  .contact-text p,
+  .links-wrapper ul li a,
+  .footer-logo p {
+    font-size: 17px;
+  }
+
+  .contact-text h2 {
+    font-size: 28px;
+  }
+
+  .logo-box h2 {
+    font-size: 30px;
+  }
+
+  .footer-logo span {
+    font-size: 15px;
+  }
+
+  .social-icons a {
+    width: 48px;
+    height: 48px;
+
+    font-size: 18px;
+  }
 }
-
 /* =========================
 SMALL MOBILE
 ========================= */
 
-@media (max-width: 480px){
-
-  .hero-left h1{
+@media (max-width: 480px) {
+  .hero-left h1 {
     font-size: 34px;
   }
 
-  .hero-right img{
+  .hero-right img {
     max-width: 240px;
   }
 
-  .nav-links{
+  .nav-links {
     gap: 12px;
   }
 
-  .nav-links a{
+  .nav-links a {
     font-size: 13px;
   }
 
-  .filter-buttons{
+  .filter-buttons {
     justify-content: center;
   }
 
-  .filter-buttons button{
+  .filter-buttons button {
     min-width: 60px;
   }
 
-  .donor-card{
+  .donor-card {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .contact-btn{
+  .contact-btn {
     width: 100%;
   }
-
 }
