@@ -124,18 +124,20 @@ body{
 /* ================= HERO SECTION ================= */
 
 .hero{
-  width: 96%;
-  margin: 25px auto;
 
   background: #fff5f5;
 
   border-radius: 16px;
 
+  padding: 55px 70px;
+}
+
+.main-hero{
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 55px 70px;
 }
 
 /* Left Side */
@@ -227,20 +229,492 @@ body{
   border-radius: 10px;
 }
 
-/* ================= RESPONSIVE ================= */
+/* ================= DONOR SECTION ================= */
 
-@media(max-width: 992px){
+.donor-section{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* ================= FILTER ================= */
+
+.blood-filter h2{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.filter-buttons{
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.filter-buttons button{
+  padding: 13px 38px;
+
+  border: 1px solid #ddd;
+  background: white;
+
+  border-radius: 8px;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filter-buttons button:hover{
+  border-color: #ef1111;
+  color: #ef1111;
+}
+
+.filter-buttons .active{
+  background: #ef1111;
+  color: white;
+  border-color: #ef1111;
+}
+
+/* ================= WRAPPER ================= */
+
+.donor-wrapper{
+  display: flex;
+  justify-content: space-between;
+
+  gap: 25px;
+
+  margin-top: 25px;
+}
+
+/* ================= LEFT ================= */
+
+.donor-list{
+  width: 58%;
+
+  background: white;
+
+  border: 1px solid #eee;
+  border-radius: 10px;
+
+  padding: 22px;
+}
+
+/* ================= TITLE ================= */
+
+.section-title{
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  margin-bottom: 20px;
+}
+
+.section-title i{
+  color: #ef1111;
+  font-size: 18px;
+}
+
+.section-title h3{
+  font-size: 24px;
+  color: #111827;
+}
+
+/* ================= CARD ================= */
+
+.donor-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 14px 0;
+
+  border-top: 1px solid #eee;
+}
+
+.donor-info{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.donor-info img{
+  width: 60px;
+  height: 60px;
+}
+
+.details h4{
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.details p{
+  font-size: 15px;
+  color: #555;
+
+  margin-bottom: 5px;
+}
+
+.details i{
+  color: #ef1111;
+  margin-right: 6px;
+}
+
+/* ================= CONTACT BUTTON ================= */
+
+.contact-btn{
+  background: white;
+  color: #ef1111;
+
+  border: 1.5px solid #ef1111;
+
+  padding: 11px 24px;
+
+  border-radius: 8px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover{
+  background: #ef1111;
+  color: white;
+}
+
+/* ================= VIEW DONOR ================= */
+
+.view-donor{
+  display: block;
+  text-align: center;
+
+  margin-top: 18px;
+
+  text-decoration: none;
+
+  color: #ef1111;
+  font-weight: 600;
+}
+
+/* ================= RIGHT SIDE ================= */
+
+.request-box{
+  width: 40%;
+
+  background: white;
+
+  border: 1px solid #eee;
+  border-radius: 10px;
+
+  padding: 22px;
+}
+
+/* ================= FORM ================= */
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+form input,
+form select,
+form textarea{
+  width: 100%;
+
+  padding: 14px;
+
+  border: 1px solid #ddd;
+  border-radius: 6px;
+
+  font-size: 14px;
+
+  outline: none;
+}
+
+form textarea{
+  height: 90px;
+  resize: none;
+}
+
+.send-btn{
+  background: #ef1111;
+  color: white;
+
+  border: none;
+
+  padding: 14px;
+
+  border-radius: 6px;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.send-btn:hover{
+  background: #d90d0d;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+  background: #fff;
+
+  border-top: 1px solid #eee;
+
+  margin-top: 50px;
+
+  padding: 30px 0;
+}
+
+.footer-container{
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 40px;
+}
+
+/* ================= CONTACT ================= */
+
+.footer-contact{
+  display: flex;
+  align-items: flex-start;
+
+  gap: 15px;
+}
+
+.phone-icon{
+  width: 48px;
+  height: 48px;
+
+  background: #fff1f1;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.phone-icon i{
+  color: #ef1111;
+  font-size: 18px;
+}
+
+.contact-text h3{
+  font-size: 16px;
+  color: #111827;
+
+  margin-bottom: 5px;
+}
+
+.contact-text p{
+  font-size: 14px;
+  color: #666;
+
+  margin-bottom: 8px;
+}
+
+.contact-text h2{
+  font-size: 18px;
+  color: #ef1111;
+}
+
+/* ================= LINKS ================= */
+
+.footer-links h3{
+  font-size: 16px;
+  color: #111827;
+
+  margin-bottom: 12px;
+}
+
+.links-wrapper{
+  display: flex;
+  gap: 50px;
+}
+
+.links-wrapper ul{
+  list-style: none;
+}
+
+.links-wrapper ul li{
+  margin-bottom: 10px;
+}
+
+.links-wrapper ul li a{
+  text-decoration: none;
+
+  color: #555;
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+.links-wrapper ul li a:hover{
+  color: #ef1111;
+}
+
+/* ================= SOCIAL ================= */
+
+.footer-social h3{
+  font-size: 16px;
+  color: #111827;
+
+  margin-bottom: 14px;
+}
+
+.social-icons{
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a{
+  width: 36px;
+  height: 36px;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.social-icons a:nth-child(1){
+  background: #1877f2;
+}
+
+.social-icons a:nth-child(2){
+  background: #1da1f2;
+}
+
+.social-icons a:nth-child(3){
+  background: #e1306c;
+}
+
+/* ================= LOGO ================= */
+
+.footer-logo{
+  display: flex;
+  flex-direction: column;
+
+  gap: 18px;
+}
+
+.logo-box{
+  display: flex;
+  align-items: flex-start;
+
+  gap: 10px;
+}
+
+.logo-box i{
+  color: #ef1111;
+  font-size: 24px;
+
+  margin-top: 2px;
+}
+
+.logo-box h2{
+  font-size: 24px;
+  color: #111827;
+
+  line-height: 1;
+}
+
+.logo-box p{
+  font-size: 14px;
+  color: #666;
+
+  margin-top: 5px;
+}
+
+.footer-logo span{
+  font-size: 13px;
+  color: #777;
+}
+
+/* ================= LARGE LAPTOP ================= */
+
+@media (max-width: 1200px){
 
   .navbar{
-    flex-direction: column;
-    gap: 20px;
+    padding: 12px 30px;
+  }
+
+  .main-hero,
+  .donor-section,
+  .footer-container{
+    max-width: 92%;
   }
 
   .hero{
-    flex-direction: column;
-    text-align: center;
+    padding: 45px 40px;
+  }
 
+  .hero-left h1{
+    font-size: 42px;
+  }
+
+  .filter-buttons button{
+    padding: 12px 28px;
+  }
+
+}
+
+/* ================= TABLET ================= */
+
+@media (max-width: 992px){
+
+  /* NAVBAR */
+
+  .navbar{
+    padding: 18px 25px;
+    gap: 20px;
+
+    flex-wrap: wrap;
+  }
+
+  .nav-links{
+    gap: 22px;
+  }
+
+  .nav-links a{
+    font-size: 15px;
+  }
+
+  .emergency-btn{
+    padding: 11px 16px;
+    font-size: 13px;
+  }
+
+  /* HERO */
+
+  .hero{
+    padding: 45px 30px;
+  }
+
+  .main-hero{
+    flex-direction: column;
     gap: 40px;
+
+    text-align: center;
   }
 
   .hero-left,
@@ -248,34 +722,8 @@ body{
     width: 100%;
   }
 
-  .hero-buttons{
-    justify-content: center;
-  }
-
   .hero-left h1{
-    font-size: 46px;
-  }
-
-}
-
-@media(max-width: 768px){
-
-  .navbar{
-    padding: 18px 20px;
-  }
-
-  .nav-links{
-    gap: 18px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .hero{
-    padding: 40px 25px;
-  }
-
-  .hero-left h1{
-    font-size: 38px;
+    font-size: 44px;
   }
 
   .hero-left p{
@@ -283,12 +731,222 @@ body{
   }
 
   .hero-buttons{
+    justify-content: center;
+  }
+
+  .hero-right img{
+    max-width: 420px;
+  }
+
+  /* DONOR */
+
+  .donor-wrapper{
     flex-direction: column;
+  }
+
+  .donor-list,
+  .request-box{
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  .footer-container{
+    flex-wrap: wrap;
+    gap: 35px;
+
+    padding: 0 20px;
+  }
+
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px){
+
+  /* NAVBAR */
+
+  .navbar{
+    flex-direction: column;
+    padding: 18px 15px;
+  }
+
+  .logo{
+    width: 100%;
+    justify-content: center;
+  }
+
+  .nav-links{
+    width: 100%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 15px;
+  }
+
+  .nav-links a{
+    font-size: 14px;
+  }
+
+  .emergency-btn{
+    width: 100%;
+    max-width: 260px;
+  }
+
+  /* HERO */
+
+  .hero{
+    padding: 35px 18px;
+    border-radius: 12px;
+  }
+
+  .hero-left h1{
+    font-size: 34px;
+    line-height: 1.3;
+  }
+
+  .hero-left p{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .hero-buttons{
+    flex-direction: column;
+    gap: 14px;
   }
 
   .primary-btn,
   .secondary-btn{
     width: 100%;
+  }
+
+  .hero-right img{
+    max-width: 100%;
+  }
+
+  /* FILTER BUTTON */
+
+  .blood-filter h2{
+    font-size: 20px;
+  }
+
+  .filter-buttons{
+    gap: 10px;
+  }
+
+  .filter-buttons button{
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  /* DONOR CARD */
+
+  .donor-list,
+  .request-box{
+    padding: 18px;
+  }
+
+  .donor-card{
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 18px;
+  }
+
+  .donor-info{
+    align-items: flex-start;
+  }
+
+  .donor-info img{
+    width: 52px;
+    height: 52px;
+  }
+
+  .details h4{
+    font-size: 17px;
+  }
+
+  .details p{
+    font-size: 14px;
+  }
+
+  .contact-btn{
+    width: 100%;
+  }
+
+  .section-title h3{
+    font-size: 18px;
+  }
+
+  /* FORM */
+
+  form input,
+  form select,
+  form textarea{
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .send-btn{
+    padding: 13px;
+  }
+
+  /* FOOTER */
+
+  .footer{
+    padding: 25px 0;
+  }
+
+  .footer-container{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .links-wrapper{
+    gap: 35px;
+  }
+
+  .footer-logo span{
+    line-height: 1.6;
+  }
+
+}
+
+/* ================= SMALL MOBILE ================= */
+
+@media (max-width: 480px){
+
+  .hero-left h1{
+    font-size: 28px;
+  }
+
+  .logo-text h2{
+    font-size: 20px;
+  }
+
+  .logo-text p{
+    font-size: 10px;
+  }
+
+  .blood-filter h2{
+    font-size: 18px;
+  }
+
+  .filter-buttons button{
+    flex: 1 1 30%;
+  }
+
+  .details h4{
+    font-size: 16px;
+  }
+
+  .contact-text h2{
+    font-size: 16px;
+  }
+
+  .logo-box h2{
+    font-size: 20px;
   }
 
 }
