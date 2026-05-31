@@ -9,7 +9,7 @@ body {
   background: #f5f5f5;
 }
 
-/* ================= NAVBAR ================= */
+/* NAVBAR  */
 
 .navbar {
   width: 100%;
@@ -121,7 +121,7 @@ body {
   background: #d80d0d;
 }
 
-/* ================= HERO SECTION ================= */
+/*  SECTION  */
 
 .hero {
   background: #fff5f5;
@@ -228,14 +228,14 @@ body {
   border-radius: 10px;
 }
 
-/* ================= DONOR SECTION ================= */
+/* DONOR SECTION */
 
 .donor-section {
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* ================= FILTER ================= */
+/* FILTER */
 
 .blood-filter h2 {
   font-size: 24px;
@@ -266,7 +266,7 @@ body {
 
 .filter-buttons button:hover {
   border-color: #ef1111;
-  color: #ef1111;
+  /* color: #ef1111; */
 }
 
 .filter-buttons .active {
@@ -275,7 +275,7 @@ body {
   border-color: #ef1111;
 }
 
-/* ================= WRAPPER ================= */
+/* WRAPPER */
 
 .donor-wrapper {
   display: flex;
@@ -286,7 +286,7 @@ body {
   margin-top: 25px;
 }
 
-/* ================= LEFT ================= */
+/* LEFT */
 
 .donor-list {
   width: 58%;
@@ -299,7 +299,7 @@ body {
   padding: 22px;
 }
 
-/* ================= TITLE ================= */
+/* TITLE */
 
 .section-title {
   display: flex;
@@ -320,7 +320,7 @@ body {
   color: #111827;
 }
 
-/* ================= CARD ================= */
+/* CARD */
 
 .donor-card {
   display: flex;
@@ -361,7 +361,7 @@ body {
   margin-right: 6px;
 }
 
-/* ================= CONTACT BUTTON ================= */
+/*CONTACT BUTTON */
 
 .contact-btn {
   background: white;
@@ -385,7 +385,7 @@ body {
   color: white;
 }
 
-/* ================= VIEW DONOR ================= */
+/* VIEW DONOR */
 
 .view-donor {
   display: block;
@@ -399,7 +399,18 @@ body {
   font-weight: 600;
 }
 
-/* ================= RIGHT SIDE ================= */
+.no-donor{
+  text-align: center;
+
+  color: #777;
+  font-size: 18px;
+
+  margin-top: 40px;
+
+  display: none;
+}
+
+/* RIGHT SIDE  */
 
 .request-box {
   width: 40%;
@@ -412,7 +423,7 @@ body {
   padding: 22px;
 }
 
-/* ================= FORM ================= */
+/* FORM */
 
 form {
   display: flex;
@@ -461,7 +472,7 @@ form textarea {
   background: #d90d0d;
 }
 
-/* ================= FOOTER ================= */
+/*FOOTER */
 
 .footer {
   background: #fff;
@@ -484,7 +495,7 @@ form textarea {
   gap: 40px;
 }
 
-/* ================= CONTACT ================= */
+/* CONTACT  */
 
 .footer-contact {
   display: flex;
@@ -530,7 +541,7 @@ form textarea {
   color: #ef1111;
 }
 
-/* ================= LINKS ================= */
+/* LINKS */
 
 .footer-links h3 {
   font-size: 16px;
@@ -565,7 +576,7 @@ form textarea {
   color: #ef1111;
 }
 
-/* ================= SOCIAL ================= */
+/*SOCIAL*/
 
 .footer-social h3 {
   font-size: 16px;
@@ -607,7 +618,7 @@ form textarea {
   background: #e1306c;
 }
 
-/* ================= LOGO ================= */
+/* LOGO */
 
 .footer-logo {
   display: flex;
@@ -649,11 +660,11 @@ form textarea {
   color: #777;
 }
 
-/* ================= LARGE LAPTOP ================= */
+ /* ================= LARGE LAPTOP ================= 
 
-/* =========================
+=========================
 TABLET RESPONSIVE
-========================= */
+========================= 
 
 @media (max-width: 992px) {
   .navbar {
@@ -705,12 +716,12 @@ TABLET RESPONSIVE
   }
 }
 
-/* =========================
+ =========================
 MOBILE RESPONSIVE
-========================= */
+========================= 
 
 @media (max-width: 768px) {
-  /* ================= NAVBAR ================= */
+  ================= NAVBAR =================
 
   .navbar {
     padding: 16px 18px;
@@ -739,19 +750,19 @@ MOBILE RESPONSIVE
     font-size: 13px;
   }
 
-  /* HIDE NAV LINKS */
+  HIDE NAV LINKS
 
   .nav-links {
     display: none;
   }
 
-  /* HIDE BUTTON */
+  HIDE BUTTON
 
   .emergency-btn {
     display: none;
   }
 
-  /* HAMBURGER ICON */
+  HAMBURGER ICON
 
   .menu-icon {
     display: block;
@@ -762,7 +773,7 @@ MOBILE RESPONSIVE
     cursor: pointer;
   }
 
-  /* ================= HERO ================= */
+  ================= HERO =================
 
   .hero {
     padding: 45px 22px;
@@ -814,7 +825,7 @@ MOBILE RESPONSIVE
     max-width: 380px;
   }
 
-  /* ================= DONOR SECTION ================= */
+  ================= DONOR SECTION =================
 
   .donor-section {
     padding: 0 18px;
@@ -836,9 +847,7 @@ MOBILE RESPONSIVE
     border-radius: 10px;
   }
 
-  /* ================= CARDS ================= */
-
-  .donor-wrapper {
+  ================= CARDS ================= .donor-wrapper {
     flex-direction: column;
     gap: 25px;
   }
@@ -900,9 +909,7 @@ MOBILE RESPONSIVE
     margin-top: 20px;
   }
 
-  /* ================= FORM ================= */
-
-  form {
+  ================= FORM ================= form {
     gap: 16px;
   }
 
@@ -927,9 +934,7 @@ MOBILE RESPONSIVE
     border-radius: 8px;
   }
 
-  /* ================= FOOTER ================= */
-
-  .footer {
+  ================= FOOTER ================= .footer {
     padding: 35px 20px;
   }
 
@@ -969,11 +974,12 @@ MOBILE RESPONSIVE
     font-size: 18px;
   }
 }
-/* =========================
-SMALL MOBILE
-========================= */
-
-@media (max-width: 480px) {
+=========================
+  SMALL
+  MOBILE
+  =========================
+  @media
+  (max-width: 480px) {
   .hero-left h1 {
     font-size: 34px;
   }
@@ -1006,4 +1012,4 @@ SMALL MOBILE
   .contact-btn {
     width: 100%;
   }
-}
+} */
