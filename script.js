@@ -218,3 +218,73 @@ form.addEventListener("submit", function (e) {
   }
 
 });
+
+
+// ================= HERO BUTTON ACTION =================
+
+const requestBtn =
+document.querySelector(".primary-btn");
+
+const donorBtn =
+document.querySelector(".secondary-btn");
+
+const donorSection =
+document.querySelector(".donor-section");
+
+const requestForm =
+document.querySelector(".request-box");
+
+
+// REQUEST BLOOD BUTTON
+
+requestBtn.addEventListener("click", () => {
+
+  // smooth scroll
+
+  requestForm.scrollIntoView({
+    behavior: "smooth"
+  });
+
+  // highlight effect
+
+  requestForm.style.boxShadow =
+  "0 0 25px rgba(239, 17, 17, 0.35)";
+
+  requestForm.style.transition = "0.3s";
+
+  // remove effect after 2 second
+
+  setTimeout(() => {
+
+    requestForm.style.boxShadow = "none";
+
+  }, 2000);
+
+});
+
+
+// VIEW DONORS BUTTON
+
+donorBtn.addEventListener("click", () => {
+
+  // smooth scroll
+
+  donorSection.scrollIntoView({
+    behavior: "smooth"
+  });
+
+  // donor section highlight
+
+  donorSection.style.transition = "0.3s";
+
+  donorSection.style.transform = "scale(1.01)";
+
+  // remove effect
+
+  setTimeout(() => {
+
+    donorSection.style.transform = "scale(1)";
+
+  }, 400);
+
+});
